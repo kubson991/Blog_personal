@@ -1,0 +1,23 @@
+.M1{
+    border: 5px solid #d99737;
+    background-color:#d99737 ;
+    width: 90%;  
+    height: fit-content;
+    margin: 10px auto;
+    .M2{
+        border: 5px solid #b26132;
+        background-color:#b26132 ;
+        .M3{
+            border: 7px solid #d2873d;
+            background-color:#d2873d ;
+            .M4{
+                border: 4px solid #8c4512;
+                background-color:#8c4512 ;
+                img{   
+                    width:100%;                  
+                }  
+            }
+        }
+    }
+
+}

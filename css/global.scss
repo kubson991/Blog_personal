@@ -1,0 +1,26 @@
+@import "./config.scss";
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html{
+    font-size: 62.5%;
+    width: 100vw;
+    max-width:100%
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+}
+body{
+    font-family: $Fuente2;
+}
+main{
+    min-height: 69vh;    
+}
+
+@media (min-width: 1600px) {
+    *{
+        font-size: 2rem;
+    }
+}

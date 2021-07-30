@@ -1,0 +1,60 @@
+@import "config.scss";
+header{
+    width: 100%;
+    height: 60px;
+    display: grid;
+    background-color: $color-variacion;    
+    grid-template:repeat(2,100%) / repeat(2,50%);
+    grid-template-areas: "nav nav"
+                         "botLeft botRight";
+}
+.header--transparent{
+    background-color:rgba($color-variacion,0.6);
+}
+
+.header__icon-container{
+    height:fit-content;
+    width:100%;
+    grid-area:nav;
+    justify-self: end;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    .facebook{
+        @include icons("~assets/img/facebookIcon.png");
+    }  
+    .instagram{
+        @include icons("~assets/img/instagramIcon.png");
+    }
+    .link{
+        @include icons("~assets/img/linkIcon.png");
+    }
+    .wap{
+        @include icons("~assets/img/wapIcon.png");   
+    }
+}
+.header__IndexLogo{
+    grid-area: botRight;
+    width: 48%;
+    height:100%;
+    justify-self: end;
+    justify-self: end;
+    a{  
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        background-image: url("~assets/img/Logo-negro.png");
+        @include backgroundConfig();
+    }
+}
+.header__About-me {
+    grid-area: botLeft ;
+    margin-left: 10px;
+    margin-top: 10px;
+    a{
+        color: $color-claro;
+    }
+    .a--i{
+        color: $color-principal;
+    }
+}

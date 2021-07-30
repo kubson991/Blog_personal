@@ -1,0 +1,55 @@
+$Fuente1:'Zen Dots', cursive;
+$Fuente2: 'Archivo', sans-serif;
+$color-claro:white;
+$color-principal:black;
+$color-variacion:#47cfac;
+$color-gris:#e6e9ed;
+ 
+
+@mixin backgroundConfig(){
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@mixin icons($img){
+    display: inline-block;
+    background-image: url($img);
+    @include backgroundConfig();
+    width: 40px;
+    height: 40px;  
+}
+
+@mixin boton(){
+    border: none;
+    border-radius: 7px;
+    background-color:$color-variacion;
+    color: $color-claro;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5em 2em;
+    font-family: $Fuente1;
+    &:hover{
+        filter: saturate(160%);
+    }
+}
+
+@mixin botonBlogs(){
+    display: inline-block;
+    background-color: transparent;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border: solid #47cfac 1px;
+    &:hover{
+        background-color: #47cfac;
+        color: white;
+    }
+
+}
+
+h1{
+    font-family: $Fuente1;
+}
+h2{
+    font-family: $Fuente1;
+}

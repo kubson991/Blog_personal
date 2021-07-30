@@ -1,0 +1,35 @@
+@import "config.scss";
+
+article{
+    width: 90%;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    box-shadow:9px 4px 15px 0px rgba(50, 50, 50, 0.32);
+    
+    img{
+        width: 80px;
+        height: 80px;
+        border-radius: 0.7rem;
+    }
+    h1{
+        text-align: center;
+        max-width: 88%;
+    }
+    p{
+        width: 85%;
+        height: 35%;
+        max-height: 5.5em;
+        overflow-y: hidden;
+        text-align: justify;
+    }
+    a{
+        width:fit-content;
+        @include botonBlogs()  
+          
+    }
+}

@@ -1,0 +1,17 @@
+@import "config.scss";
+.pantalla{
+    background-image: url(https://i.pinimg.com/originals/81/e2/28/81e2285225282c6dc6cbca2545da669a.jpg);
+    min-height: 100vh;
+    width: 100vw;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main__boton-index{
+    @include boton();    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}

@@ -1,0 +1,37 @@
+@import "./config.scss";
+.main__perfil{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    height:fit-content;
+    background-color: $color-gris;
+    img{
+        margin: 20px 0;  
+        width: 70%; 
+        border-radius: 0.4em;      
+    }
+    article{
+        width: 90%;
+        h1{
+            text-align: center;
+        }   
+        p{
+            text-align: justify;
+            margin: 20px 0;  
+        }   
+    }
+}
+h2{
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+    border-bottom: solid 1px $color-gris;
+}
+
+.main__certificaciones{
+    display: grid;
+    grid-auto-rows:auto;
+    grid-template-columns:repeat(auto-fit,minmax(310px,1fr));
+}
