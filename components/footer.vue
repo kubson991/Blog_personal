@@ -1,6 +1,6 @@
 <template lang="pug">
     footer
-        p Este blog muestra como he llevador mi trayerctora profesional en el aprendizaje de desarrollo web
+        p Este blog muestra como he llevado mi trayectoria profesional en el aprendizaje del desarrollo web
 </template>
 <script>
 export default {

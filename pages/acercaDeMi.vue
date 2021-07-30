@@ -33,10 +33,11 @@
     @media(min-width: 1024px){
         .main__perfil{
             img{
-                width: 40%;
+                width: 20%;
+                max-height: 360px;
             }
             article{
-                width: 45%;
+                width: 60%;
             }
         }
     }
