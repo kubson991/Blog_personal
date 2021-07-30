@@ -5,11 +5,11 @@
             section.main__perfil 
                 img(src="https://scontent.fbga1-4.fna.fbcdn.net/v/t1.6435-9/80211210_3045317605497819_1403006888928346112_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=47O-Ffuk3VwAX866f77&_nc_ht=scontent.fbga1-4.fna&oh=f1c41c3a2b6c980ea578048e89026891&oe=612853D8", alt="foto de mi")
                 article
-                    h1  Quien soy
-                    p Estudiante de noveno semestre de la universidad Autónoma de Bucaramanga con nivel intermedio de inglés y buenas aptitudes en el trabajo colaborativo.
+                    h1  ¿Quién soy?
+                    p Estudiante de decimo semestre de la universidad Autónoma de Bucaramanga con nivel intermedio de inglés y buenas aptitudes en el trabajo colaborativo.
                     p Soy una persona responsable, puntual, autodidacta, creativa y con muy buena disposición para cualquier tarea que se me asigne. Actualmente me estoy certificando en desarrollo web con Platzi. 
                     p Me interesa principalmente trabajar en proyectos nuevos y con un enfoque social, en el área de desarrollo web principalmente como Frontend developer. 
-                    p Actualmente soy practicante en carvajal tecnologia y servicios ,siendo a su vez futuro miembro del equipo del area de innovacion
+                    p Actualmente soy practicante en Carvajal tecnología y servicios, siendo a su vez futuro miembro del equipo del área de innovación.
             h2 Mis certificaciones
             section.main__certificaciones
                 marco(v-for="certificado in certificaciones" :certificacion="certificado" :key="certificado")
