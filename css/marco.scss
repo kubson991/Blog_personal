@@ -13,8 +13,12 @@
             .M4{
                 border: 4px solid #8c4512;
                 background-color:#8c4512 ;
-                img{   
-                    width:100%;                  
+                img{       
+                    width:100%;
+                    transition: transform 1.2s;
+                    &:hover{
+                        transform: scale(1.4);
+                    }                  
                 }  
             }
         }

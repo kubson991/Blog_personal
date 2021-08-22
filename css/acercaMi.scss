@@ -31,6 +31,7 @@ h2{
 }
 
 .main__certificaciones{
+    position: relative;
     display: grid;
     grid-auto-rows:auto;
     grid-template-columns:repeat(auto-fit,minmax(310px,1fr));
