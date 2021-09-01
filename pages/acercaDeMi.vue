@@ -3,7 +3,7 @@
         headerB
         main
             section.main__perfil 
-                img(src="https://scontent.fbga1-4.fna.fbcdn.net/v/t1.6435-9/80211210_3045317605497819_1403006888928346112_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=47O-Ffuk3VwAX866f77&_nc_ht=scontent.fbga1-4.fna&oh=f1c41c3a2b6c980ea578048e89026891&oe=612853D8", alt="foto de mi")
+                img(src="https://i.imgur.com/LthqJjb.png", alt="foto de mi")
                 article
                     h1  ¿Quién soy?
                     p Estudiante de decimo semestre de la universidad Autónoma de Bucaramanga con nivel intermedio de inglés y buenas aptitudes en el trabajo colaborativo.
