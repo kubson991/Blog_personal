@@ -5,5 +5,15 @@ export default {
         link:[{ rel: 'icon', type: 'image/x-icon', href: '/favicon.jpg' }]
     },
     css: ["@/css/global.scss"],
-    target: 'static'
+    target: 'static',
+    modules:['@nuxtjs/pwa'],
+    pwa: {
+        icon: false // disables the icon module
+      },
+    manifest: {
+        name: 'PersonalBlog',
+        short_name: 'Blog',
+        lang: 'en',
+        display: 'standalone',
+      }
 }
