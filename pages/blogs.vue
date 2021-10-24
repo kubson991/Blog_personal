@@ -3,7 +3,7 @@
         headerB
         main
             section.main__principal
-                img(:src="require('@/assets/img/BlogIndex.jpg')", alt="alt")
+                nuxt-img(src="v1635112679/blogPersonal/indexpage_vbluxj.png", alt="blog" , provider="cloudinary" sizes="md:615px xl:625px" , format="webp")
                 article.principal__articulo
                     h1 Creacion de un blog profesional con el uso de dipslay Grid y Display Flex
                     p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto impedit ab facilis temporibus consequatur magni ex optio a voluptatibus unde facere odit similique voluptatum deserunt architecto iste, accusantium minus aspernatur. Reprehenderit error, libero ut eos incidunt, ratione, reiciendis dolorem fugiat nulla veritatis earum optio neque laudantium vitae. Unde atque, fugiat rerum perferendis sapiente, non magnam earum aliquid, ad autem dolore.   

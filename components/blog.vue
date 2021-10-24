@@ -1,6 +1,7 @@
 <template lang="pug">
     main
-        img(:src="require(`../assets/img/${this.img}`)", :alt="this.h1")   
+        nuxt-img(:src="this.img", 
+        :alt="this.h1" , provider="cloudinary", format="webp")   
         h1 {{this.h1}}
         p {{this.p}} 
         p {{this.p2}}

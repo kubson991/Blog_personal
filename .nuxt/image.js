@@ -4,6 +4,7 @@ import NuxtImg from '~image/components/nuxt-img.vue'
 import NuxtPicture from '~image/components/nuxt-picture.vue'
 
 import * as staticRuntime$dfee from '/home/sebastian/proyectosPersonales/blog-personal-Nuxt/node_modules/@nuxt/image/dist/runtime/providers/static.js'
+import * as cloudinaryRuntime$9a8e from '/home/sebastian/proyectosPersonales/blog-personal-Nuxt/node_modules/@nuxt/image/dist/runtime/providers/cloudinary.js'
 
 const imageOptions = {
   "screens": {
@@ -24,7 +25,8 @@ const imageOptions = {
 }
 
 imageOptions.providers = {
-  ['static']: { provider: staticRuntime$dfee, defaults: {} }
+  ['static']: { provider: staticRuntime$dfee, defaults: {} },
+  ['cloudinary']: { provider: cloudinaryRuntime$9a8e, defaults: {"baseURL":"https://res.cloudinary.com/dl4ytevqi/image/upload/"} }
 }
 
 Vue.component(NuxtImg.name, NuxtImg)

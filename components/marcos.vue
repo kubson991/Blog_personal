@@ -3,7 +3,7 @@ div.M1
     div.M2
         div.M3
             div.M4
-                nuxt-img(:src="this.certificacion", alt="certificado")    
+                nuxt-img(:src="this.certificacion", alt="certificado" , format="webp")    
 </template>
 <script>
 export default {
