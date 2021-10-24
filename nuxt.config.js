@@ -4,9 +4,12 @@ export default {
         meta: [{charset:"utf-8"},{ name:'viewport', content: 'width=device-width, initial-scale=1' }],
         link:[{ rel: 'icon', type: 'image/x-icon', href: '/favicon.jpg' }]
     },
+    image: {
+      domains: ['https://i.imgur.com']
+    },
     css: ["@/css/global.scss"],
     target: 'static',
-    modules:['@nuxtjs/pwa'],
+    modules:['@nuxtjs/pwa','@nuxt/image'],
     pwa: {
         icon: false // disables the icon module
       },

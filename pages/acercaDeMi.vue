@@ -12,7 +12,8 @@
                     p Actualmente soy practicante en Carvajal tecnología y servicios, siendo a su vez futuro miembro del equipo del área de innovación.
             h2 Mis certificaciones
             section.main__certificaciones
-                marco(v-for="certificado in certificaciones" :certificacion="certificado" :key="certificado")
+                marco(v-for="certificado in certificaciones" :certificacion="certificado" :key="certificado")   
+                          
         footerB                
 </template>
 <script>

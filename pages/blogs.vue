@@ -3,7 +3,7 @@
         headerB
         main
             section.main__principal
-                img(src="@/assets/img/BlogIndex.jpg", alt="alt")
+                img(:src="require('@/assets/img/BlogIndex.jpg')", alt="alt")
                 article.principal__articulo
                     h1 Creacion de un blog profesional con el uso de dipslay Grid y Display Flex
                     p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto impedit ab facilis temporibus consequatur magni ex optio a voluptatibus unde facere odit similique voluptatum deserunt architecto iste, accusantium minus aspernatur. Reprehenderit error, libero ut eos incidunt, ratione, reiciendis dolorem fugiat nulla veritatis earum optio neque laudantium vitae. Unde atque, fugiat rerum perferendis sapiente, non magnam earum aliquid, ad autem dolore.   
@@ -28,7 +28,7 @@ export default {
                     imagen:'facebookIcon.png',
                     alt:'PAPA',
                     h1:'maquetacion de patatavid',
-                    p:'esto si es un lorem ipsum y noa mamadas muchas mas cosas vienen entre todo esto texnto largo porque si xd lmaoalfnalfnakfnakjf',
+                    p:'esto si es un lorem ipsum y noa mamadas muchas mas cosas vienen entre todo esto texto largo porque si xd lmaoalfnalfnakfnakjf',
                     to:'/'
                 },
                 {

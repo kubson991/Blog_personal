@@ -3,24 +3,28 @@
     "name": "acercaDeMi",
     "path": "/acercaDeMi",
     "component": "/home/sebastian/proyectosPersonales/blog-personal-Nuxt/pages/acercaDeMi.vue",
-    "chunkName": "pages/acercaDeMi"
+    "chunkName": "pages/acercaDeMi",
+    "_name": "_702bbb3c"
   },
   {
     "name": "blogs",
     "path": "/blogs",
     "component": "/home/sebastian/proyectosPersonales/blog-personal-Nuxt/pages/blogs.vue",
-    "chunkName": "pages/blogs"
+    "chunkName": "pages/blogs",
+    "_name": "_08bd96e9"
   },
   {
     "name": "blog-MiBlog",
     "path": "/blog/MiBlog",
     "component": "/home/sebastian/proyectosPersonales/blog-personal-Nuxt/pages/blog/MiBlog.vue",
-    "chunkName": "pages/blog/MiBlog"
+    "chunkName": "pages/blog/MiBlog",
+    "_name": "_50ef493a"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/home/sebastian/proyectosPersonales/blog-personal-Nuxt/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_c5519bac"
   }
 ]

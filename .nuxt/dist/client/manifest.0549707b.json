@@ -1,7 +1,6 @@
 {
   "name": "PersonalBlog",
   "short_name": "Blog",
-  "description": "",
   "icons": [],
   "start_url": "/?standalone=true",
   "display": "standalone",
