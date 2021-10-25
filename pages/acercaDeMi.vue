@@ -3,7 +3,7 @@
         headerB
         main
             section.main__perfil 
-                img(src="https://i.imgur.com/LthqJjb.png", alt="foto de mi")
+                nuxt-img(src="v1635132021/blogPersonal/foto_de_mi_dukgol.jpg", alt="blog" , provider="cloudinary", format="webp")
                 article
                     h1  ¿Quién soy?
                     p Estudiante de decimo semestre de la universidad Autónoma de Bucaramanga con nivel intermedio de inglés y buenas aptitudes en el trabajo colaborativo.
